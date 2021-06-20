@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+}
+
+.clear::after{
+   content: '';
+   clear: both;
+   display: block;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+
+/* header */
+
+
+header{
+    background: #f5d18f;
+}
+.header-menu {
+    padding-left: 170px;
+    padding-right: 0px;
+}
+.h-left{
+    width: 30%;
+}
+.h-left img{
+    width: 140px;
+    margin-top: 7px;
+}
+.h-right{
+    width: 70%;
+}
+.h-right ul{
+   
+}
+.h-right ul li{
+    list-style: none;
+    line-height: 74px;
+  
+}
+.h-right ul li{
+    list-style: none;
+  
+}
+.h-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0px 14px;
+    font-weight: 500;
+    
+  
+}
+.active{
+    border-right: 2px solid #fff;
+}
+
+/* banner */
+.banner{
+    background: url(./img/intro-bg.jpg), rgba(0,0,0, .5) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 230px 0px;
+    background-blend-mode: multiply;
+    color: #fff;
+}
+.banner h3{
+    background: #2d8dff;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    border-radius: 15px 0px 15px 0px;
+}
+.banner h1{
+    background: #fe8e32;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    border-radius: 0px 15px 0px 15px;
+}
+
+/* about  */
+.about-me{
+    padding: 100px;
+    background: rgb(247, 245, 245);
+}
+.a-left{
+    width: 40%;
+   
+}
+.a-left img{
+    width: 400px;
+    box-shadow: 0px 0px 10px #ddd;
+    margin-left: 100px;
+}
+.a-right{
+    width: 60%;
+    box-sizing: border-box;
+    padding: 0px 100px;
+}
+.a-right p{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.a-right h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.a-right h3{
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.card-section{
+   background: #fffaf0;
+   padding: 100px;
+
+}
+
+.card{
+    box-sizing: border-box;
+    width: 33.3%;
+    text-align: center;
+
+}
+.card-inner{
+    border: 3px dashed #ddd;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 40px 0px 40px 0px;
+}
+.card-inner span{
+    font-size: 50px;
+    color: #3498db;
+    border: 1px solid #2d8dff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px 0px 25px 0px;
+    margin-bottom: 10px;
+}
+.card-inner h1{
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+footer{
+    background: #2c3e50;
+    padding: 30px 200px;
+    color: #fff;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer span{
+    font-size: 1.3em;
+    margin: 0px 10px;
+}

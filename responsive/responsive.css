@@ -1,0 +1,156 @@
+@media (max-width:1356px) {
+    .h-right ul li a {
+        font-size: 1.2em;
+    }
+    .h-right ul li {
+        line-height: 80px;
+    }
+    .a-left img{
+         width: 300px;
+    }
+
+    .a-right p {
+        text-align: justify;
+        font-size: 1em;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .a-right h1{
+        font-size: 1.5em;
+    }
+    .a-right h3{
+        font-size: 1.5em;
+    }
+}
+@media (max-width:1150px) {
+    .a-left img{
+        width: 250px;
+   }
+
+   .a-right p {
+       text-align: justify;
+       font-size: 0.8em;
+       line-height: 15px;
+       margin-top: 0px;
+   }
+   .a-right h1{
+       font-size: 1.3em;
+   }
+   .a-right h3{
+       font-size: 1.3em;
+   }
+}
+@media (max-width:960px) {
+    .a-left{
+        width: 100%;
+        text-align: center;
+       
+   }
+   .a-left img{
+      margin-left: 0px;
+      width: 350px;
+   }
+   .about-me{
+    padding: 40px; 
+}
+  .a-right{
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      padding: 0;
+  }
+  .footer-left{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .footer-right{
+      width: 100%;
+      text-align: center;
+  }
+}
+
+@media (max-width:1070px) {
+    .header-menu {
+        padding-left: 50px;
+    }
+    .banner {
+    
+        padding: 120px 0px;
+       
+    }
+    .banner h3{
+        font-size: 1.3em;
+    }
+    .banner h1{
+        font-size: 1.3em;
+    }
+
+    .card {
+      
+        width: 50%;
+        
+    }
+
+}
+
+@media (max-width:776px) {
+    .h-right {
+        width: 100%;
+        box-sizing: ;
+    }
+    .h-left {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .active {
+        border: none;
+    }
+    .h-right ul li {
+        line-height: 0px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .header-menu {
+        padding-left: 0px;
+    }
+    .banner {
+    
+        padding: 100px 0px;
+       
+    }
+
+    .card {
+      
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:500px) {
+    .h-right ul li a {
+        margin: 0px 8px;
+        
+    }
+    .banner h3{
+        font-size: 1em;
+    }
+    .banner h1{
+        font-size: 1em;
+    }
+}
+@media (max-width:654px) {
+      
+     footer p{
+         font-size: 1em;
+        
+     }
+     footer{
+         padding: 20px 0px;
+     }
+} 
+
+
+
+
